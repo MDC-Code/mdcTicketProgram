@@ -35,7 +35,7 @@ public class MDCTicketMainFrame extends JFrame {
 	 */
 	public MDCTicketMainFrame() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 450, 300);
+		setBounds(100, 100, 600, 600);
 		
 		JMenuBar menuBar = new JMenuBar();
 		setJMenuBar(menuBar);
