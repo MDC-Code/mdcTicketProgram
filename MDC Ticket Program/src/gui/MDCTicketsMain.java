@@ -36,7 +36,7 @@ public class MDCTicketsMain {
 	 */
 	private void initialize() {
 		frame = new MDCTicketMainFrame();
-		frame.setBounds(100, 100, 959, 641);
+		frame.setBounds(100, 100, 1200, 700);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 
