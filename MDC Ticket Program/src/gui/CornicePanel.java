@@ -1,18 +1,13 @@
 package gui;
 
 import javax.swing.JPanel;
+
+import java.awt.Dimension;
+
 import javax.swing.JLabel;
+import javax.swing.JTextField;
 
 public class CornicePanel extends JPanel {
-
-	/**
-	 * Create the panel.
-	 */
-	public CornicePanel() {
-		
-		JLabel lblCornicepanel = new JLabel("CornicePanel");
-		add(lblCornicepanel);
-
-	}
-
+	
+	
 }

@@ -1,8 +1,14 @@
 package gui;
 
-import javax.swing.JPanel;
+import java.awt.Dimension;
+import java.awt.ScrollPane;
 
-public class MainMenuPanel extends JPanel {
+import javax.swing.JPanel;
+import java.awt.Scrollbar;
+import javax.swing.JScrollBar;
+import javax.swing.JLabel;
+
+public class MainMenuPanel extends JPanel{
 
 	/**
 	 * Create the panel.
@@ -17,7 +23,7 @@ public class MainMenuPanel extends JPanel {
 		
 		JPanel cornicePanel = new CornicePanel();
 		add(cornicePanel);
+		
 
 	}
-
 }
